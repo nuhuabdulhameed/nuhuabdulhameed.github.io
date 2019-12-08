@@ -1,0 +1,55 @@
+.About_us{
+	height: auto;
+	background-color: red;
+	width: 100%;
+}
+	
+.tablo{
+	width: 100%;
+	height: auto;
+	border-collapse: collapse;
+
+}
+
+.cup{
+	padding-bottom: 50px;
+	width: 65%;
+	height: 700px;
+
+}
+
+.sheet{
+	text-align: left;
+	padding:50px;
+	vertical-align: middle;
+	margin-left: 100px;
+	margin-top: 50px;
+	font-size: 10px;
+	font-family: 10px;
+}
+
+.ground{
+	width:100%;
+	height:300px;
+	text-align: center;
+	margin-left: 100px;
+}
+
+.media{
+	padding-top: 70px;
+	height: 70px;
+}
+.media a{
+	padding: 8px 20px;
+	text-decoration: none;
+	font-size: 24px;
+	transition: .2s
+	color: #37bfbf;
+}
+
+.media a:hover{
+	border-bottom: 2px 
+	color:white;
+	font-size: 30px;
+	transition: .2s;
+}

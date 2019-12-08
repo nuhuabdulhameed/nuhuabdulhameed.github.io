@@ -1,0 +1,30 @@
+.About_us{
+	height: auto;
+	background-color: red;
+	width: 100%;
+}
+
+
+	
+.tablo{
+	width: 100%;
+	height: auto;
+	border-collapse: collapse;
+
+}
+
+.cup{
+	padding-bottom: 50px;
+	width: 65%;
+	height: 700px;
+
+}
+
+.sheet{
+	text-align: left;
+	padding:50px;
+	vertical-align: middle;
+	margin-left: 100px;
+	margin-top: 50px;
+	color: red;
+}

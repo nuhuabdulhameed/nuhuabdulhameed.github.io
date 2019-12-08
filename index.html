@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<title>onotu's photography</title>
+	<link rel="stylesheet" href="photograpy.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+</head>
+<body style="background-image: url(blank.jpg);">
+	<div class="logo"class="bold vertical-center">
+	</div>
+		<ul>
+			<li><a href="index.html">WELCOME</a></li>
+			<li><a href="about.html">ABOUT</a></li>
+			<li><a href="gallery.html">GALLERY</a></li>
+			<li><a href="client.html">CLIENT SHOWCASE</a></li>
+		</ul>
+		
+	</div>
+	<div class="slider">
+		<img src="pic1.jpg"width="550" height="400" class = "slideImages">
+		<img src="pic2.jpg"width="550" height="400" class = "slideImages">
+		<img src="pic3.jpg"width="550" height="400" class = "slideImages">
+		<img src="pic4.jpg"width="550" height="400" class = "slideImages">
+		<img src="pic5.jpg"width="550" height="400" class = "slideImages">
+     </div>
+
+     <script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+		  var i;
+		  var x = document.getElementsByClassName("slideImages");
+		  for (i = 0; i < x.length; i++) {
+		    x[i].style.display = "none";  
+		  }
+		  myIndex++;
+		  if (myIndex > x.length) {myIndex = 1}    
+		  x[myIndex-1].style.display = "block";  
+		  setTimeout(carousel, 2000); // Change image every 2 seconds
+		}
+	</script>
+
+     <div class="strike">
+		<table class="made">
+			<tr>
+				<td class="cup">
+                    <div class="sheet">
+						<h2 style="color:grey ;">Proudly made by nuhuabdulhameed270@.gmail </h2>					
+					</div>
+				</td>
+
+		<div class="ground">
+			<div class="media">
+				<a href="#"><i class="fab fa-facebook-f"></i></a>
+				<a href="#"><i class="fab fa-twitter"></i></a>
+				<a href="#"><i class="fab fa-instagram"></i></a>
+				</div>
+
+</body>
+</html>

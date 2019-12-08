@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body, html{
+	height: 100%;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.logo{
+	height: 150px;
+	position: relative;
+	float: left;
+	width: 100%;
+	margin-top: 40px;
+
+}
+
+.dollar{
+	width: 255px;
+	height: 170px;
+	background-image: url(galla.jpg);
+	margin-left: 550px;
+
+}
+
+.gala{
+	 width: 25% 
+	 height: 500px; 
+	 float: left; 
+	 margin-left: 80px;
+	 margin-top: 20px;
+	
+}
